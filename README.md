@@ -15,3 +15,26 @@ The "Heart Sync AI" project is a sophisticated AI-powered conversational agent d
 ->Natural Language Processing (NLP) and Sentiment Analysis: This allows the AI to understand the nuances of human language, including emotion, tone, and underlying intent. The system is trained on a vast corpus of mental health-related data to accurately interpret user input. By analyzing the user's input, the AI can detect signs of stress, anxiety, or sadness and respond with appropriate, pre-defined conversational paths.
 ->Machine Learning (ML) and Cognitive Behavioral Therapy (CBT) Integration: The AI uses ML algorithms to learn from each interaction, tailoring its responses and guidance to the user's specific needs and patterns. It incorporates evidence-based therapeutic techniques, such as CBT and mindfulness, to provide actionable coping strategies and promote self-awareness. The platform will offer guided exercises, such as a "thought record" to challenge negative thinking patterns or a "breathing exercise" to manage immediate anxiety.
 ->24/7 Accessibility and Personalization: The companion is designed to be available around the clock, offering immediate support without the constraints of scheduling or location. It creates a personalized experience by tracking a user's mood and progress over time, offering customized resources, such as guided meditations, journaling prompts, and mood tracking.
+
+
+Project Architecture:
+  frontend
+  
+    public
+            favicon.ico
+            index.html
+            logo192.png
+            logo512.png
+            robots.txt
+    src
+            
+            .gitignore.txt
+            package-lock.json
+            package.json
+  Backend
+        
+        .env
+        package-lock.json
+        package.json
+        server.js
+    
