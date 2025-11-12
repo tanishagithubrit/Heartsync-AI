@@ -49,7 +49,7 @@ async function moderateText(text) {
 
 function localRedFlagCheck(text) {
   const low = text.toLowerCase();
-  const suicideRegex = /\b(suicid|kill myself|end my life|want to die|want to kill myself)\b/;
+  const suicideRegex = /\b(suicid|kill myself|end my life|want to die|want to kill myself|want to destroy my life)\b/;
   if (suicideRegex.test(low)) return { type: 'suicide', matched: true };
   return { type: null, matched: false };
 }
