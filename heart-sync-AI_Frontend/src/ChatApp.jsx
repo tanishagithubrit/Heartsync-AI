@@ -46,7 +46,7 @@ export default function ChatApp() {
           value={input}
           onChange={e => setInput(e.target.value)}
           style={{ flex: 1, padding: 10, borderRadius: 6, border: '1px solid #ccc' }}
-          placeholder="Share your feeling here..."
+          placeholder="Share how you're feeling...."
           onKeyDown={e => e.key === 'Enter' && send()}
         />
         <button onClick={send} style={{ padding: '0 16px' }}>Send</button>
