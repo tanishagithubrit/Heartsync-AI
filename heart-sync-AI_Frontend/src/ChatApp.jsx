@@ -12,7 +12,7 @@ export default function ChatApp() {
     const payload = { userId, text: input };
     setInput('');
     try {
-      const res = await fetch('http://localhost:4000/api/message', {
+      const rav = await fetch('http://localhost:4000/api/message', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
