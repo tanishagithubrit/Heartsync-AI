@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 export default function ChatApp() {
   const [messages, setMessages] = useState([]); // {role,text,emotions}
   const [input, setInput] = useState('');
-  const userId = 'user-123'; // replace with real auth in production
+  const userId = 'user-123'; // replace with real authentication in production
 
   async function send() {
     if (!input.trim()) return;
