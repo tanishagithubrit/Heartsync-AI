@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 export default function ChatApp() {
-  const [messages, setMessages] = useState([]); // {role,text,emotion}
+  const [messages, setMessages] = useState([]); // {role,text,emotions}
   const [input, setInput] = useState('');
   const userId = 'user-123'; // replace with real auth in production
 
