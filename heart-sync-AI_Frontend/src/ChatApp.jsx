@@ -19,7 +19,7 @@ export default function ChatApp() {
       });
       const body = await res.json();
       const assistant = body.assistant;
-      // assistant has text and emotion
+      // assistant has text and emotions
       setMessages(prev => [...prev, { role: 'assistant', text: assistant.text, emotion: assistant.emotion }]);
     } catch (err) {
       console.error(err);
